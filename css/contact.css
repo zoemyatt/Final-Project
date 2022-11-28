@@ -76,3 +76,8 @@ input[type=text], select, textarea {
   .container{
     padding: 20px;
   }
+
+.active{
+    border: 3px solid white;
+    background-color: #87162d;
+}
