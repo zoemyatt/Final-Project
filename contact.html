@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+	<!-- You do not need to make any changes to this file, but
+	you should still review the tags to make sure that you
+	are familiar with them. -->
+
+<html lang="en">
+<!-- All of the meta data for the page belongs in the header tag -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link to the favicon image -->
+	<link rel="icon" href="images/favicon.ico">
+	<!-- Link to the reset file -->
+	<link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/contact.css">
+	<title>Contact Us</title>
+</head>
+
+<!-- All of the visible code in the page belongs in the body tag -->
+<body>
+	<!-- Header is a sematic tag page that aids readability -->
+	<header>
+		<a class = "skip" href="#skip">Skip to Main Content</a>
+		<!-- Nav is a sematic tag page that aids accessibility -->
+		<nav>
+			<ul>
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				<li><a href = "main.html" >About the Holidays</a></li>
+				<li><a href = "xmas.html">Christmas</a></li>
+				<li><a href = "hannuk.html">Hannukah</a></li>
+				<li><a href = "kwanzaa.html">Kwanzaa</a></li>
+				<li class="active"><a href = "contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<!-- The h1 is a semantic tag that aids accessibility -->
+		<h1>Contact Us Here!</h1>
+	</header>
+
+	<!-- Every page should have a main tag for accessibility -->
+	<main id="skip">
+
+		<!-- Make sure your anchor tags have a link (href) and a clickable component -->
+		<p>
+			See a holiday missing? Let us know by filling out 
+            the form.
+        </p>
+
+		<div class="container">
+			<form name = "myForm" onsubmit= "return sendSubmit()">
+		
+			  <label for="name">Name</label>
+			  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+		  
+			  <label for="holiday">What holiday are we missing?</label>
+			  <textarea id="holiday" name="holiday" placeholder="Write something.." style="height:200px"></textarea>
+		  
+			  <input type="submit" value="Submit">
+		  
+			</form>
+			<script src = "js/script.js"></script>
+		  </div>
+
+		<div id="submit">
+
+		</div>
+
+	</main>
+
+	<!-- Footer is a sematic tag page that aids readability -->
+	<footer>
+		<p>Zoe Myatt & Olivier Mastey &copy; 2022</p>
+	</footer>
+</body>
+</html>
