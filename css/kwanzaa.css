@@ -47,8 +47,10 @@ h1{
     padding: 20px;
 }
 
-main p{
-    padding: 15px;
+main{
+    padding-left: 20px;
+    padding-right: 15px;
+    width: 100%;
 }
 
 main img{
