@@ -82,7 +82,7 @@ main img{
     padding: 20px;
     text-align: center;
     display: grid;
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
 }
 
 .images li img{
@@ -101,7 +101,7 @@ main img{
 
 @media all and (min-width: 700px) {
     main ul{
-        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(2, auto);
         color: rgb(35, 62, 35);
     }
 
