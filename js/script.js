@@ -14,8 +14,7 @@ function sendSubmit(){
         return false;
     }
     else{
-        //document.forms["myForm"].reset();
-        let item = document.getElementById("submit");
-        item.textContent = fname + ", thanks for submitting!";
+        document.forms["myForm"].reset();
+        alert(fname + ", thanks for submitting!");
     }   
 }
