@@ -47,6 +47,19 @@ h1{
     padding: 20px;
 }
 
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 88, 58);
+    padding-bottom: 10px;
+}
+
+main{
+    padding-left: 20px;
+    padding-right: 15px;
+    width: 100%;
+}
+
 main p{
     padding: 15px;
 }
