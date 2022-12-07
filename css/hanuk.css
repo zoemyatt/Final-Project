@@ -5,7 +5,7 @@ nav li{
 
 nav ul{
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(1, auto);
     justify-items: center;
     background-color: rgb(35, 53, 35);
 }
@@ -70,4 +70,11 @@ main img{
     background-color: #87162d;
 }
 
+@media all and (min-width: 700px) {
+    nav ul{
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        justify-items: center;
+    }
+}
 
