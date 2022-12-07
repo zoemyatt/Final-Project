@@ -98,6 +98,21 @@ main img{
     width: 100%;
 } */
 
+@media all and (min-width: 700px) {
+
+    .images li{
+        display: flex;
+        display: inline;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .item{
+        width: 50%;
+    }
+}
+
 
 @media all and (min-width: 900px) {
 
